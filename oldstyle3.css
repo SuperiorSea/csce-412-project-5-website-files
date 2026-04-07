@@ -1,0 +1,286 @@
+body {
+    background-color: rgb(146, 209, 224);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("images/blue.jpg");
+}
+
+/* Style for navigation bar */
+
+ul.navigation {
+    background: rgb(149, 149, 149);
+    color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+ul.navigation li {
+    display: inline-block;
+    margin: 20 70;
+    text-decoration: none;
+}
+
+button.toggle {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button.toggle:active {
+    background-color: #048253;
+}
+
+a {
+    color: black;
+    font-size: 15;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none;
+} 
+
+a:hover { 
+    text-decoration:rgb(151, 222, 240)
+} 
+
+a:active { 
+    text-decoration: none; 
+}
+
+a.active {
+    color:rgb(174, 44, 112);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* Home page image */
+
+section.body-main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 218, 218);
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+section.body-main img {
+    height: 500px;
+    margin: 50px;
+    border: 5px solid #000000;
+}
+
+div.top {
+    font-size: 70;
+    margin-top: 50;
+}
+
+section.body-main p {
+    font-size: 22;
+    width: 750px;
+}
+
+section.body-main div a img {
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 30px;
+    border: 2px solid darkblue;
+    border-radius: 2px;
+}
+
+/* Technical Projects Page */
+
+header.tech {
+    padding: 20px;
+}
+
+section.project-main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 218, 218);
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+div.project {
+    width: 150px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+div.project img {
+    height: 100px;
+}
+
+section.project-main p {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 16;
+}
+
+/* Qualifications Page */
+
+a.qual-title {
+    font-size: 10;
+    background-color: rgb(218, 218, 218);
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 780px;
+    text-align: center;
+}
+
+section.qual-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.first-qual {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.first-qual img {
+    width: 800px;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+div.qual-text {
+    background-color: rgb(218, 218, 218);
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    min-width: 40%;
+    max-width: max-content;
+}
+
+section.qual-main a {
+    font-size: 30;
+}
+
+/* Service Section */
+
+section.service-main {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 218, 218);
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section.service-main img {
+    height: 400px;
+    margin: 50px;
+    border: 5px solid #000000;
+}
+
+div.service-top {
+    font-size: 50;
+    margin-top: 50;
+}
+
+section.service-main p {
+    font-size: 16;
+    width: 750px;
+}
+
+section.service-main a {
+    color: blue;
+}
+
+/* AI Genererated CSS */
+
+body.ai {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.header {
+    background-color: #007bff; /* Bright blue for header background */
+    color: #fff; /* White text */
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.subtitle {
+    background-color: #0056b3; /* Darker blue for subtitle background */
+    color: #fff; /* White text */
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+.main-content {
+    padding: 2rem;
+    margin-top: 2rem; /* Space for header */
+}
+
+.winners-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for table */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.table-head {
+    background-color: #343a40; /* Dark gray for table header */
+}
+
+.table-header {
+    border: 1px solid #dee2e6; /* Light gray border */
+    padding: 0.75rem;
+    color: #ffffff; /* White text */
+    text-align: left;
+}
+
+.table-body {
+    background-color: #f8f9fa; /* Light gray for table body */
+}
+
+.table-row:nth-child(even) {
+    background-color: #f1f1f1; /* Slightly darker gray for even rows */
+}
+
+.table-cell {
+    border: 1px solid #dee2e6; /* Light gray border */
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.stats-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+}
+
+.stats-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
